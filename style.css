@@ -1,0 +1,162 @@
+@font-face {
+    font-family: interB;
+    src: url(assets/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: interb;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: inters;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    font-size: 15px;
+    padding: 0 9%;
+}
+
+:root {
+    --clr-navy: hsl(240, 100%, 5%);
+    --clr-white: hsl(36, 100%, 99%);
+    --clr-grbl:  hsl(236, 13%, 42%);
+    --clr-grey: hsl(233, 8%, 79%);
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-black: 800;
+}
+
+.logo {
+height: 45%;
+align-self: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.image {
+    width: 100%;
+}
+
+main{
+    display: flex;
+   
+}
+
+.main {
+    display: grid;
+}
+
+.main1{
+    width: 100%;
+}
+
+h1{
+    font-family: 'interB';
+    
+}
+
+input{
+    text-transform: uppercase;
+    background-color: hsl(5, 85%, 63%);
+    color: var(--clr-white);
+    border: transparent;
+    padding: 1em 2em;
+}
+
+.cont{
+    padding-left: 8em;
+}
+
+.main2 {
+    margin-left: 30px;
+    background-color:  var(--clr-navy);
+    padding: 0 10px;
+}
+
+h2{
+    color:hsl(35, 77%, 62%);
+    font-family: 'interb';
+}
+
+h3{
+    color: var(--clr-white);
+    font-family: 'inter';
+}
+
+p{
+    color: var(--clr-grbl);
+    font-family: 'inters';
+}
+
+.side1{
+    border-bottom: 1px solid var(--clr-grbl);
+    padding-right: 2em;
+}
+.content {
+    display: flex;
+}
+
+.buttom{
+    display: flex;
+    flex: 1;
+    padding-top: 3em;
+}
+
+.sub1{
+    display: flex;
+    padding-right: 2em;
+}
+
+.sub-buttom {
+    height: 40%;
+}
+
+
+
+.sub2{
+    padding-left: 1em;
+    margin: 0%;
+    height: 40%;
+}
+
+.sub3{
+    padding-right: 0;
+}
+
+span{
+    color: var(--clr-grey);
+}
+
+.foot {
+    color: var(--clr-navy);
+    margin: 0;
+    padding: .5em 0;
+}
+
+.first{
+    margin: 0;
+}
+
+.last{
+    margin: 0;
+}
